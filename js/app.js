@@ -54,3 +54,17 @@ function thumbsDown(){
     dislikeCount.innerHTML++;
 
 }
+
+// var thumbsDown = document.getElementsByClassName('thumb');
+
+// for(var i= 0; i<thumbsDown.length; i++){
+//     thumbsDown[i].addEventListener('click', dislikesCounter);
+//     var counter = document.createElement('div');
+//     counter.className = 'hate';
+//     thumbsDown[i].appendChild(counter);
+// }
+
+// function dislikeCounter(){
+//     var hateCount = this.querySelectorAll('.hate')[0];
+//     hateCount.innerHTML++;
+// }
